@@ -16,6 +16,10 @@ There are the basic CRUD requests in both the Student and Address table, a get m
 
 an API method that adds a new address for a student using their student ID and an API method that changes the address of a student using his/her StudentId was also added in the StudentController
 
+![Query1](./images/address.png)
+
+![Query2](./images/put.png)
+
 ## Screenshot of Swagger UI showing all api endpoints
 
 ![endpoint](./images/endpoint.png)
