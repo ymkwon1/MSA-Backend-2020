@@ -14,11 +14,17 @@ These screenshots show the query editor from the azure website showing both tabl
 
 There are the basic CRUD requests in both the Student and Address table, a get method, post method, put method and delete method. as seen in the Screenshot of Swagger UI showing all api endpoints
 
-an API method that adds a new address for a student using their student ID and an API method that changes the address of a student using his/her StudentId was also added in the StudentController
+### API method that adds a new address for a student using their student ID
 
 ![Query1](./images/address.png)
 
+to post an address we must input the student id and must also match it in the request body, the address id will be auto generated so we leave it as 0 in the request body.
+
+### API method that changes the address of a student using his/her StudentId was also added in the StudentController
+
 ![Query2](./images/put.png)
+
+to modify the address of a student we need both the addressId and the studentId and both must match in the request body
 
 ## Screenshot of Swagger UI showing all api endpoints
 
